@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+<div class="form-popup" id="myForm">
+<form class="form-container">
+<h1>Bevrage form</h1>
+<label for="uname"><b>User Name</b></label>
+<input type="text"  name="uname" required>
+<label for="dname"><b>Drink</b></label>
+<select name="dname" id="id1" required>
+    <option value="Please Select">Please Select</option>
+    <option value="Sparkling Cranberry Punch ">Sparkling Cranberry Punch </option>
+    <option value="Iced Chocolate Delight ">Iced Chocolate Delight </option>
+    <option value="Raspberry Fizz ">Raspberry Fizz </option>
+    <option value="Virgin Frozen Margarita ">Virgin Frozen Margarita </option>
+    <option value="Summer Punch ">Summer Punch </option>
+</select>
+<button type="submit" class="btn">Submit</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+</form>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
+
+
+<div class="popup" id="popup">
+    <div class="popup-inner">
+      <div class="popupphoto">
+        <label for="uname"><b>User Name</b></label>
+        <input type="text"  name="uname"placeholder="Username" id="u_name" required>
+      </div>
+      <div class="popuptext">
+        <label for="dname"><b>Drink: </b></label>
+        <select name="dname" id="d_name" required>
+           <option value="Please Select">Please Select</option>
+           <option value="Sparkling Cranberry Punch ">Sparkling Cranberry Punch </option>
+           <option value="Iced Chocolate Delight ">Iced Chocolate Delight </option>
+           <option value="Raspberry Fizz ">Raspberry Fizz </option>
+           <option value="Virgin Frozen Margarita ">Virgin Frozen Margarita </option>
+           <option value="Summer Punch ">Summer Punch </option>
+       </select> 
+      </div>
